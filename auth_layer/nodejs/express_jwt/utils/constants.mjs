@@ -1,0 +1,11 @@
+const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
+const REFRESH_TOKEN_SECRET = process.env.REFRESH_TOKEN_SECRET;
+const ACCESS_TOKEN_EXPIRY = '10m';
+const REFRESH_TOKEN_EXPIRY = '7d';
+
+export const constants = {
+  ACCESS_TOKEN_SECRET,
+  REFRESH_TOKEN_SECRET,                             
+  ACCESS_TOKEN_EXPIRY,
+  REFRESH_TOKEN_EXPIRY
+};
